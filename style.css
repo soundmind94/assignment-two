@@ -1,7 +1,10 @@
+body {
+    font-family: 'Poppins';}
 .container{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+p{color:dimgray;}
 .buy-now-button{
     background-color:#000;
     color:#fff;
@@ -23,4 +26,59 @@
 }
 .more{
     color: yellowgreen;
+}
+
+.cat{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+hr.line {
+        border: 5px solid yellowgreen;
+        border-radius: 5px;
+        width:8%
+}
+.items-2{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.shoe{
+    border: none;
+    border-radius:15px 5px 25px 5px;
+    box-shadow: 5px 5px 20px lightgray;
+    margin-top: 10px;
+}
+.shoe img{
+    padding:30px 40px;
+}
+.bag{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightgray;
+    margin-right: 5px;
+    margin-top: 130px;
+}
+.bag{
+    border-radius:5px 15px 5px 25px;
+}
+.bag img{
+    padding:30px 40px;
+}
+.perfume{
+    border: none;
+    border-radius:15px 5px 25px 5px;        
+    box-shadow: 5px 5px 20px lightgray;
+}
+.perfume img{
+    padding:30px 40px;
+}
+.pale img{
+    width:100% ;
+    margin-left: 120px;
+}
+.last-sec{
+    margin-top:30px;
+}
+footer{
+    color:dimgray;
+    text-align:center;
 }
